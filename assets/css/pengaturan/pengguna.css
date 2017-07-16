@@ -1,0 +1,23 @@
+.pengguna>.nav-wizard>li {
+    width: 33.33%;
+}
+
+.pengguna-tambah-2 .form-horizontal .btn-primary {
+    width: 110px;
+}
+
+.pengguna-tambah-3 .form-button {
+    margin-top: 260px;
+}
+
+.pengguna-tambah-2 .ket-grup {
+    text-align: left;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.pengguna-tambah-2 .panel-group {
+    padding-left: 80px;
+}

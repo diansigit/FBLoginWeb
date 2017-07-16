@@ -1,0 +1,17 @@
+.tambah-menu .fa {
+    font-size: 16px;
+}
+
+.menu .btn-primary {
+    width: 120px;
+    margin: 0;
+}
+
+.menu .btn-success {
+    width: 120px;
+    margin: 30px 0 10px;
+}
+
+.menu .clearfix, .menu .pull-right {
+    margin-bottom: 0;
+}

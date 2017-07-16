@@ -1,0 +1,93 @@
+.peran-detail table.center {
+    width: 40%;
+}
+
+.peran-detail h5 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.peran-detail .center td:first-child {
+    width: 25%;
+}
+
+.otoritas-peran-detail, .otoritas-peran-detail th {
+    border: 1px solid #bdbdbd;
+}
+
+.otoritas-peran-detail {
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    float: left;
+}
+
+.otoritas-peran-detail th {
+    color: #093697;
+    height: 30px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.otoritas-peran-detail td {
+    height: 30px;
+    padding-left: 20px;
+}
+
+.otoritas-peran-detail td:first-child {
+    border-right: 1px solid #bdbdbd;
+    width: 50%;
+}
+
+.peran-detail .form-button {
+    margin-top: 30px;
+}
+
+.otoritas-peran-detail tr:nth-child(1){
+    border-bottom: solid 2px #bdbdbd;
+}
+
+table input, table label {
+    margin: 0;
+}
+
+table.otoritas-peran-detail {
+    margin-bottom: 20px;
+}
+
+.peran .nav-wizard li {
+    width: 50%;
+}
+
+.peran-tambah-2 .btn-primary {
+    width: 120px;
+    margin: 0;
+}
+
+.peran-tambah-2 .panel-color-1 {
+    margin-left: 0;
+}
+
+.peran-tambah-2 .search {
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.peran-tambah-2 h4 {
+    padding-left: 10px;
+}
+
+.panel-title input[type=checkbox] {
+    margin-right: 10px;
+}
+
+.otoritas-peran-tambah-2 td {
+    width: 150px;
+    height: 25px;
+}
+
+.otoritas-peran-tambah-2 input {
+    margin-right: 5px;
+}

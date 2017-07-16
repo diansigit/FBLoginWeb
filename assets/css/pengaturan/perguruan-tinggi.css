@@ -1,0 +1,17 @@
+.fa-users {
+    font-size: .75em;
+}
+
+.perguruan-tinggi > .nav-wizard >li {
+    width: 33.33%;
+}
+
+.perguruan-tinggi .dashed-wrapper {
+    height: 300px;
+    margin-bottom: 50px;
+    padding-top: 70px;
+}
+
+.univ-langkah-2 .form-button {
+    margin-top: 150px;
+}

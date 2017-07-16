@@ -1,0 +1,18 @@
+@import url("main.css"); 
+@import url("index.css"); 
+@import url("home.css"); 
+@import url("profile-user.css"); 
+@import url("maintenance.css"); 
+@import url("error-404.css"); 
+@import url("lost-connection.css");
+ 
+/* Pengaturan */ 
+@import url("pengaturan/perguruan-tinggi.css"); 
+@import url("pengaturan/unit.css");
+@import url("pengaturan/aplikasi.css");
+@import url("pengaturan/modul.css");
+@import url("pengaturan/pengguna.css");
+@import url("pengaturan/grup.css");
+@import url("pengaturan/peran.css");
+@import url("pengaturan/mitra.css");
+@import url("pengaturan/menu.css");

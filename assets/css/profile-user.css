@@ -1,0 +1,62 @@
+.side-profile {
+    min-height: 76.5vh;
+    margin-bottom: -10px;
+    padding-top: 30%;
+}
+
+.content-profile {
+    min-height: 76.5vh;
+    background-color: white;
+    padding: 0;
+}
+
+.content-profile div {
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.content-profile .line-divider {
+    padding: 0;
+    margin: 0 20px;
+}
+
+.content-profile h4, .content-profile .fa {
+    color: #093697;
+}
+
+.content-profile .fa {
+    margin-right: 10px;
+}
+
+.side-profile .fa {
+    margin-right: 5px;
+}
+
+.content-profile .table > tbody > tr >td {
+    border: none;
+    font-size: 12px;
+    padding: 5px 0;
+}
+
+.profile-user h3 {
+    margin-bottom: 0;
+    color: #093697;
+}
+
+.side-profile img {
+    height: 170px;
+}
+
+.main-wrapper button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.side-profile .fa {
+    color: #093697;
+}
+
+.main-wrapper button .fa {
+    color: white;
+}
+

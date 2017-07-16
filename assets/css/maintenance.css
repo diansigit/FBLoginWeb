@@ -1,0 +1,56 @@
+.maintenance-content {
+    padding-top: 50px;
+}
+
+.maintenance-content img {
+    width: 250px;
+}
+
+.maintenance-content h1 {
+    margin: 50px auto;
+    font-size: 144px;
+    color: #093697;
+    font-weight: bold;
+}
+
+.maintenance-content h3 {
+    font-size: 36px;
+    color: #555555;
+    margin-bottom: 20px;
+}
+
+.maintenance-content p {
+    color: #bdbdbd;
+}
+
+.wrap {
+    margin: 50px auto;
+    margin-bottom: 30px;
+    width: 200px;
+    height: 200px;
+    position: relative; 
+}
+
+.wrap > div {
+    position: absolute;
+}
+
+.gear-1 {
+    color: #093697;
+    font-size: 130px;
+    top: 0.3em;
+    left: 0;
+}
+
+.gear-2 {
+    color: #4DB6AC;
+    font-size: 70px;
+    top: 0;
+}
+
+.gear-3 {
+    color: #FBC02D;
+    font-size: 100px;
+    bottom: 0;
+    right: 0;
+}

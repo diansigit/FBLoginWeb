@@ -1,0 +1,28 @@
+.search {
+    margin-bottom: 30px;
+}
+
+.home-icon {
+    color: #555555;
+    text-decoration: none;
+}
+
+.home-icon:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.icon-app-lg {
+    max-height: 130px;
+    max-width: 130px;
+}
+
+.content-home h1 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.content-home h4 {
+    font-size: 16px;
+    color: #979797;
+}

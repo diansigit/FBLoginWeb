@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Facebook Login</title>
+    <script src="assets/javascript/jquery-3.1.1.min.js"></script>
+    <script src="assets/javascript/bootstrap.min.js"></script>
+    <script src="assets/javascript/script.js"></script> 
+</head>
+
+<body>
+<script>
+  // Load the SDK asynchronously
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="home.html" class="navbar-brand">
+                    <img src="assets/img/logo-uii-2-biru.png" alt="">
+                </a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="message">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <span class="fa fa-envelope color-blue nav-middle"></span>
+                    </a>
+                </li>
+                <li class="notification">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown">
+                        <span class="fa fa-bell color-blue nav-middle"></span>
+                    </a>
+                </li>
+                <li class="application">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <span class="fa fa-th color-blue nav-middle"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown">
+                        <img id="thumbnail" src="assets/img/mini-icon-profile.png" class="img-responsive img-circle icon-profileimg"></a>
+                    <div class="dropdown-menu dropdown-nav">
+                        <div class="profile-view">
+                            <div class="profile">
+                                <img id="picture" src="assets/img/mini-icon-profile.png" class="img-responsive img-circle profile-img">
+                                <div class="profile-content">
+                                    <h1 id="name" class="font-medium color-primary">Tumini Lawrence</h1>
+                                    <p id="id" class="">16235245</p>
+                                    <p id="email" class="color-green">Karyawan</p>
+
+                                </div>
+                            </div>
+                            <a href="#" onclick="facebookLogout()">
+                                <div class="logout">
+                                    <span class="glyphicon glyphicon-log-out logout-icon"></span>
+                                    <div class="logout-desc">
+                                        <p>Keluar</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid content-home">
+        <div class="row">
+            <div class="col-md-offset-4 col-md-4 col-sm-offset-2 col-sm-8">
+                <form>
+                    <div class="form-group search">
+                        <div class="input-group">
+                            <input type="text" placeholder="Cari aplikasi" class="form-control">
+                            <span class="input-group-addon bg-blue">
+                               <span class="fa fa-search color-white"></span>
+                            </span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <section class="col-md-offset-1 col-md-2 col-sm-offset-1 col-sm-5 col-xs-12">
+                <a href="#" class="home-icon"><img class="icon-app-lg" src="assets/img/Data-Induk.png" alt="Icon">
+                    <h4>First App</h4>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </a>
+            </section>
+            <section class="col-md-2 col-sm-5 col-xs-12">
+                <a href="#" class="home-icon"> <img class="icon-app-lg" src="assets/img/PMB.png" alt="Icon">
+                    <h4>Second App</h4>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </a>
+            </section>
+            <section class="col-md-2 col-md-offset-0 col-sm-offset-1 col-sm-5 col-xs-12 ">
+                <a href="#" class="home-icon"> <img class="icon-app-lg" src="assets/img/Akademik.png" alt="Icon">
+                    <h4>Third App</h4>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </a>
+            </section>
+            <section class="col-md-2 col-sm-5 col-xs-12">
+                <a href="#" class="home-icon"> <img class="icon-app-lg" src="assets/img/Keuangan.png" alt="Icon">
+                    <h4>Fourth App</h4>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </a>
+            </section>
+            <section class="col-md-2 col-md-offset-0 col-sm-offset-1 col-sm-5 col-xs-12">
+                <a href="#" class="home-icon"> <img class="icon-app-lg" src="assets/img/Report.png" alt="Icon">
+                    <h4>Fifth App</h4>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </a>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
