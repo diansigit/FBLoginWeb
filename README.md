@@ -10,4 +10,5 @@
 * Now go to <a href="https://developers.facebook.com/apps" target="_blank">https://developers.facebook.com/apps</a> there you will find your newly created app and click on the app that you have created. You will be redirected to app dashboard.
 * In the landing page you will find the API version, App ID, App Secret. To view your App secret please click on “Show” button. Those are the required App ID and App Secret to be entered in our plugin settings
 * After that please go to App Review link just below the alert link there you will find an option to make the app public and select YES. This is very important otherwise your app will not work for all users.
+* Open Settings menu, on your create application. Scroll down to Website section, you can find Quick Start Button. Click the button, and you will bring to step by step configuration to implement facebook login into your website or you can go to https://developers.facebook.com/docs/facebook-login/web/ 
 
