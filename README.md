@@ -1,4 +1,4 @@
-# You need to create a new facebook API Applitation to setup facebook login
+# You need to create a new facebook API Application to setup facebook login
 
 * Please follow the instructions to create new app.
 * Go to <a href="https://developers.facebook.com/apps" target="_blank">https://developers.facebook.com/apps</a>.
